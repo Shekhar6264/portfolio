@@ -117,14 +117,13 @@ a:hover {
 .hamburger {
   display: none;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-  margin-left: 20px;
-  height: 30px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1001;
 }
-
-
 
 .bar {
   width: 25px;
@@ -224,6 +223,9 @@ a:hover {
     font-size: 1.25rem;
   }
 
+  .hamburger {
+    right: 15px;
+  }
 
   .bar {
     width: 20px;
