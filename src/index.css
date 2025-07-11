@@ -118,10 +118,7 @@ a:hover {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
+  margin-left: auto; 
   z-index: 1001;
 }
 
