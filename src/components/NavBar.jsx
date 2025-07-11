@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import resume from "./MyResume.pdf";
-
+import resume from './MyResume.pdf';
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     

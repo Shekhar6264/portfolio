@@ -9,7 +9,7 @@ import Project from './components/project';
 import Contact from './components/contact';
 function App() {
   return (
-    <>
+    <div style={{ overflowX: "hidden", width: "100%", maxWidth: "100%" }}>
       <NavBar/>
       <Home/>
       <About/>
@@ -17,7 +17,7 @@ function App() {
       <Experience/>
       <Project/>
       <Contact/>
-    </>
+  </div>
   );
 };
 
